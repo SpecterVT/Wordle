@@ -13,7 +13,7 @@ hr {
     left: 1%;
     right: 0;
 
-    animation: fadeIn ease 200s;
+    animation: fadeIn ease 10s;
     -webkit-animation: fadeIn ease 500s;
     -moz-animation: fadeIn ease 500s;
     -o-animation: fadeIn ease 500s;
