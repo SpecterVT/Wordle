@@ -189,16 +189,22 @@ body {
 
 }
 
-#jumpscare {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; cursor: pointer; visibility: hidden;}
-</style>
-<body>
-<input type="button" onclick="jumpscare();" value="click me"/>
-<img id="jumpscare" src="./mei_com_jumpscare.png"/>
-<audio id="scream" src="./jumpscareAudio.mp3"/>
-<script>
-function jumpscare() {
-var jumpscare = document.getElementById("jumpscare");
-jumpscare.style.visibility="visible";
-var audio = document.getElementById("scream");
-  audio.play();
-}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Jump Freddy</title>
+		<style>
+			html {
+				background: url("mei_com_grief.webp") center no-repeat fixed black;
+			}
+			html:hover {
+				background: url("mei_com_jumpscare.webp") center no-repeat fixed black;
+			}
+		</style>
+	</head>
+	<body>
+		
+	</body>
+</html>
