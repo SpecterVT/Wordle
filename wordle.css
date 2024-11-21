@@ -170,7 +170,14 @@ body {
     background-position: center, top left;
     background-size: 1800px, 100%;
 }
-
+body { 
+    width: 100%;
+    height: 300px;
+    background-image: url(./img/mei_com_jumpscare.png);
+    background-repeat: repeat;
+    background-position: center, top left;
+    background-size: 1800px, 100%;
+}
 
 
 .enter-key-tile {
@@ -188,23 +195,3 @@ body {
     align-items: center;
 
 }
-
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Jump Freddy</title>
-		<style>
-			html {
-				background: url("mei_com_grief.webp") center no-repeat fixed black;
-			}
-			html:hover {
-				background: url("mei_com_jumpscare.webp") center no-repeat fixed black;
-			}
-		</style>
-	</head>
-	<body>
-		
-	</body>
-</html>
