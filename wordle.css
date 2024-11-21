@@ -14,10 +14,10 @@ hr {
     right: 0;
 
     animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 500s;
-    -moz-animation: fadeIn ease 500s;
-    -o-animation: fadeIn ease 500s;
-    -ms-animation: fadeIn ease 500s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
   
   @keyframes fadeIn {
     0% {opacity:0;}
@@ -79,7 +79,7 @@ hr {
 }
 
 .correct {
-    background-color: #6AAA64;
+    background-color: #000000;
     color: white;
     border-color: white;
 }
